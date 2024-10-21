@@ -53,7 +53,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    max-height: 715px;
+    max-width: 715px;
 }
 
 
@@ -86,13 +86,13 @@ select {
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
-    padding-left: 25px;
+    padding: 0px 0px 0px 25px;
     list-style-image: url(./asset/fotos/solar_map-arrow-up-bold.svg);
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    padding-left: 20px;
+    padding:0px 0px 0px 20px;
     font-size: 16px;
     color: #303030; 
     
@@ -140,32 +140,34 @@ table {
     margin-bottom: 100px;
     width: 300px;
     height: 40px;
+    font-size: 16px; ;
     
 
 }
 
 th, td {
     /* Стили для ячеек таблицы */
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     color: #303030;
     width: 134px;
     height: 40px;
     border: 1px solid #95a1bb;
-    padding: 0 10px;
+    padding: 12px 15px;
 
 }
 
 footer {
     /* Стили для футера */
     background: rgba(163, 167, 255, 0.3);
-    padding: 27px 0;
+    padding: 26px 0;
 }
 
 .footer-link {
     /* Стили для футера */
     font-size: 14px;
     color: #2965f1;
+    text-decoration: none;
     
 }
 .footer-link:visited {
